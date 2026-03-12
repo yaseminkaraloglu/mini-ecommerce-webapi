@@ -4,87 +4,100 @@ It provides basic functionalities such as category management, product managemen
 
 The main goal of this project is to practice RESTful API development, layered architecture, and Entity Framework Core.
 
+
 🚀 Technologies Used
 
--ASP.NET Core Web API
+- ASP.NET Core Web API
 
--Entity Framework Core
+- Entity Framework Core
 
--SQL Server
+- SQL Server
 
--RESTful API
+- RESTful API
 
--Layered Architecture
+- Layered Architecture
 
--DTO Pattern
+- DTO Pattern
 
--Transaction Management
+- Transaction Management
 
 
 📦 Project Structure
 
 The project follows a layered architecture:
 
--Controller → Service → Data → Database
+- Controller → Service → Data → Database
 
 Controllers
 
--Handle HTTP requests and responses.
+- Handle HTTP requests and responses.
 
 Services
 
--Contain the business logic of the application.
+- Contain the business logic of the application.
 
 Data
 
--Includes the DbContext used to communicate with the database.
+- Includes the DbContext used to communicate with the database.
 
 Models
 
--Represent database entities.
+- Represent database entities.
 
 DTOs
 
--Used to transfer data between the API and the client.
+- Used to transfer data between the API and the client.
 
 ✨ Features
 
--Category CRUD operations
+- Category CRUD operations
 
--Product CRUD operations
+- Product CRUD operations
 
--Order creation
+- Order creation
 
--Stock control
+- Stock control
 
--Soft delete
+- Soft delete
 
--Transaction management for order creation
+- Transaction management for order creation
 
--Validation checks
+- Validation checks
 
 
 📚 API Endpoints
 Categories
 
 GET /api/categories
+
 GET /api/categories/{id}
+
 POST /api/categories
+
 PUT /api/categories/{id}
+
 DELETE /api/categories/{id}
+
 
 Products
 
 GET /api/products
+
 GET /api/products/{id}
+
 POST /api/products
+
 PUT /api/products/{id}
+
 DELETE /api/products/{id}
+
 
 Orders
 
 POST /api/orders
+
 GET /api/orders/{id}
+
 
 🧪 Example Order Request
 {
@@ -99,27 +112,27 @@ GET /api/orders/{id}
 
 When an order is created:
 
--Product stock is checked
+- Product stock is checked
 
--Stock is decreased
+- Stock is decreased
 
--Total order price is calculated
+- Total order price is calculated
 
--Order items are created
+- Order items are created
 
--Transaction ensures data consistency
+- Transaction ensures data consistency
 
 🎯 Purpose of the Project
 
 This project was developed to improve my backend development skills and to better understand:
 
--REST API design
+- REST API design
 
--Layered architecture
+- Layered architecture
 
--Entity Framework Core
+- Entity Framework Core
 
--Transaction management
+- Transaction management
 
--DTO usage
+- DTO usage
 
