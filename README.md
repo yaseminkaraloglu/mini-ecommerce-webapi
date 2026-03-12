@@ -22,6 +22,7 @@ The main goal of this project is to practice RESTful API development, layered ar
 - Transaction Management
 
 
+
 📦 Project Structure
 
 The project follows a layered architecture:
@@ -48,6 +49,7 @@ DTOs
 
 - Used to transfer data between the API and the client.
 
+
 ✨ Features
 
 - Category CRUD operations
@@ -65,7 +67,9 @@ DTOs
 - Validation checks
 
 
+
 📚 API Endpoints
+
 Categories
 
 GET /api/categories
@@ -100,6 +104,7 @@ GET /api/orders/{id}
 
 
 🧪 Example Order Request
+
 {
   "userId": 1,
   "items": [
@@ -109,6 +114,7 @@ GET /api/orders/{id}
     }
   ]
 }
+
 
 When an order is created:
 
@@ -121,6 +127,7 @@ When an order is created:
 - Order items are created
 
 - Transaction ensures data consistency
+
 
 🎯 Purpose of the Project
 
