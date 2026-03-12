@@ -79,18 +79,6 @@ The project follows a layered architecture:
 
 ---
 
-## 🧪 Example Order Request
-
-{
-  "userId": 1,
-  "items": [
-    {
-      "productId": 1,
-      "quantity": 2
-    }
-  ]
-}
-
 ## 🧪 When an Order is Created
 
 When an order is created:
