@@ -6,61 +6,43 @@ The main goal of this project is to practice RESTful API development, layered ar
 
 🚀 Technologies Used
 
-ASP.NET Core Web API
-
-Entity Framework Core
-
-SQL Server
-
-RESTful API
-
-Layered Architecture
-
-DTO Pattern
-
-Transaction Management
+-ASP.NET Core Web API
+-Entity Framework Core
+-SQL Server
+-RESTful API
+-Layered Architecture
+-DTO Pattern
+-Transaction Management
 
 📦 Project Structure
 
 The project follows a layered architecture:
-
-Controller → Service → Data → Database
+-Controller → Service → Data → Database
 
 Controllers
-
-Handle HTTP requests and responses.
+-Handle HTTP requests and responses.
 
 Services
-
-Contain the business logic of the application.
+-Contain the business logic of the application.
 
 Data
-
-Includes the DbContext used to communicate with the database.
+-Includes the DbContext used to communicate with the database.
 
 Models
-
-Represent database entities.
+-Represent database entities.
 
 DTOs
-
-Used to transfer data between the API and the client.
+-Used to transfer data between the API and the client.
 
 ✨ Features
 
-Category CRUD operations
-
-Product CRUD operations
-
-Order creation
-
-Stock control
-
-Soft delete
-
-Transaction management for order creation
-
-Validation checks
+-Category CRUD operations
+-Product CRUD operations
+-Order creation
+-Stock control
+-Soft delete
+-Transaction management for order creation
+-Validation checks
 
 📚 API Endpoints
 Categories
@@ -96,27 +78,18 @@ GET /api/orders/{id}
 }
 
 When an order is created:
-
-Product stock is checked
-
-Stock is decreased
-
-Total order price is calculated
-
-Order items are created
-
-Transaction ensures data consistency
+-Product stock is checked
+-Stock is decreased
+-Total order price is calculated
+-Order items are created
+-Transaction ensures data consistency
 
 🎯 Purpose of the Project
 
 This project was developed to improve my backend development skills and to better understand:
 
-REST API design
-
-Layered architecture
-
-Entity Framework Core
-
-Transaction management
-
-DTO usage
+-REST API design
+-Layered architecture
+-Entity Framework Core
+-Transaction management
+-DTO usage
